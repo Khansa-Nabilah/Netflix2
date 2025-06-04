@@ -9,7 +9,7 @@ from model.recommender import Recommender
 # Load Env
 dotenv.load_dotenv()
 model_url = os.getenv("MODEL_URL")
-file_path = "./model/model_bundle.pkl"
+file_path = "C:/Users/Khansa/Downloads/netflixbarulagi/model_bundle.pkl"
 
 # Download the file if not available
 if not os.path.isfile(file_path):
