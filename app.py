@@ -4,7 +4,7 @@ import requests
 import dotenv
 import os
 
-from model.recommender import Recommender
+from recommender import Recommender
 
 # Load Env
 dotenv.load_dotenv()
